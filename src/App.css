@@ -1,0 +1,18 @@
+*{box-sizing: border-box;}
+
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./img/purple-gradient.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-wrapper{
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+}
+

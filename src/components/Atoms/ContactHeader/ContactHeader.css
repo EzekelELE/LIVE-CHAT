@@ -1,0 +1,51 @@
+.contactHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding: 10px;
+    border-bottom: 1px solid rgb(49, 4, 101, 0.5);
+    gap: 10px;
+    color: black;
+    & .contactProfilePic-wrapper{
+        margin-left: 15px;
+        position: relative;
+        height: 100%;
+        
+        & img{
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    & .contact-name{
+        font-weight: bold;
+       
+    }
+    
+    & .contact-status{
+        font-size: 0.8rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        position: relative;
+        &::after{
+            content: "";
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius: 5px;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            transform: translate(-10%, -25%);
+        }
+    }
+}
+
+
+
+
+
+
+

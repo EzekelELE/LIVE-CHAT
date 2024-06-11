@@ -1,0 +1,46 @@
+.sidebar{
+    background: #4f1a8b;
+    width: 23vw;
+    height: 100%;
+    display: flex;
+}
+
+.sidebar-meniu{
+    width: 20%;
+    height: 100%;
+    background-color: #310465;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section-sidebar{
+    flex: 1;
+    overflow: auto;
+   
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: #77559d;
+    ;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #310465;; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #310465;;
+  }
+
+
+
